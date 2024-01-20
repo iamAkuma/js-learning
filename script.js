@@ -1,3 +1,4 @@
-let a = neku
+let a = "HELLO"
+let b = "BROTHER"
 
-console.log(typeof a)
+console.log(a + " " + b)
