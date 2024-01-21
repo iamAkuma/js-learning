@@ -7,7 +7,15 @@
 // let b = false
 // console.log(b && a)
 
-let a = 1;
-let b = 2;
+// let a = 1;
+// let b = 2;
 
-console.log(a != b)
+// console.log(a != b)
+
+
+function sayHello() {
+    console.log('Hello')
+
+}
+
+sayHello();
