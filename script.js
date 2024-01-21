@@ -17,5 +17,12 @@ function sayHello() {
     console.log('Hello')
 
 }
-
 sayHello();
+
+
+function sum(a, b) {
+
+    console.log(a + b)
+}
+
+sum(40, 29)
