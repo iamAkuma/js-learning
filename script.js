@@ -26,3 +26,10 @@ function sum(a, b) {
 }
 
 sum(40, 29)
+
+
+function sayName(name) {
+    console.log(name)
+}
+
+sayName('Tero Dai')
