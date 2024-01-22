@@ -57,8 +57,11 @@
 
 // console.log(sumArrow(1, 2))
 
-let printName = (name) => {
-    return name
-}
+// let printName = (name, age) => {
+//     console.log(name)
+//     console.log(age)
+// }
+// printName("Saral", 22)
 
-console.log(printName('Saral'))
+let sumArrow = (a, b) => a + b
+console.log(sumArrow(40, 29))
