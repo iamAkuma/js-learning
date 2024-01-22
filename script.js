@@ -51,8 +51,14 @@
 
 //Arrow Functions
 
-let sumArrow = (a, b) => {
-    return a + b
+// let sumArrow = (a, b) => {
+//     return a + b
+// }
+
+// console.log(sumArrow(1, 2))
+
+let printName = (name) => {
+    return name
 }
 
-console.log(sumArrow(1, 2))
+console.log(printName('Saral'))
