@@ -43,7 +43,7 @@
 // console.log(s)
 
 function sayName(name) {
-    return "Hello " + name
+    return "Hello  " + name
 }
 
 let n = sayName('Saral')
