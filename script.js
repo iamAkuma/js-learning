@@ -66,5 +66,8 @@
 // let sumArrow = (a, b) => a + b
 // console.log(sumArrow(40, 29))
 
-let printName = (name) => "Hi " + name
-console.log(printName('Saral'))
+// let printName = (name) => "Hi " + name
+// console.log(printName('Saral'))
+
+let hi = () => 'HI'
+console.log(hi())
