@@ -1,50 +1,58 @@
-// // // // let a = "HELLO"
-// // // // let b = "BROTHER"
+// // // // // let a = "HELLO"
+// // // // // let b = "BROTHER"
 
-// // // // console.log(a + " " + b)
+// // // // // console.log(a + " " + b)
 
-// // // let a = true
-// // // let b = false
-// // // console.log(b && a)
+// // // // let a = true
+// // // // let b = false
+// // // // console.log(b && a)
 
-// // // let a = 1;
-// // // let b = 2;
+// // // // let a = 1;
+// // // // let b = 2;
 
-// // // console.log(a != b)
+// // // // console.log(a != b)
 
 
-// // function sayHello() {
-// //     console.log('Hello')
+// // // function sayHello() {
+// // //     console.log('Hello')
 
+// // // }
+// // // sayHello();
+
+
+// // // function sum(a, b) {
+
+// // //     console.log(a + b)
+// // // }
+
+// // // sum(40, 29)
+
+
+// // // function sayName(name) {
+// // //     console.log(name)
+// // // }
+
+// // // sayName('Tero Dai')
+
+
+// // function sum1(a, b) {
+// //     return a + b
 // // }
-// // sayHello();
 
+// // let s = sum1(40, 29)
+// // console.log(s)
 
-// // function sum(a, b) {
-
-// //     console.log(a + b)
-// // }
-
-// // sum(40, 29)
-
-
-// // function sayName(name) {
-// //     console.log(name)
-// // }
-
-// // sayName('Tero Dai')
-
-
-// function sum1(a, b) {
-//     return a + b
+// function sayName(name) {
+//     return "Hello  " + name
 // }
 
-// let s = sum1(40, 29)
-// console.log(s)
+// let n = sayName('Saral')
+// console.log(n)
 
-function sayName(name) {
-    return "Hello  " + name
+//Arrow Functions
+
+let sumArrow = (a, b) => {
+    return a + b
 }
 
-let n = sayName('Saral')
-console.log(n)
+console.log(sumArrow(1, 2))
