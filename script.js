@@ -69,5 +69,7 @@
 // let printName = (name) => "Hi " + name
 // console.log(printName('Saral'))
 
-let hi = () => 'HI'
-console.log(hi())
+// let hi = () => 'HI'
+// console.log(hi())
+
+//Stack Tracing and Call Stack
