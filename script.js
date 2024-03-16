@@ -144,6 +144,7 @@
 let a = 1
 const b = 2
 b = 3 //gives error because the const(constant) variable can't be changed
+// variable lai change nagarauna laai const use garincha
 
 console.log(a)
 console.log(b)
