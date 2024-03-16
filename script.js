@@ -161,4 +161,6 @@
 }
 console.log(a)
 
-//var breaks scoping rules, curly braces bhitra declare gareko lai pani bahira console log gardincha
+//var breaks scoping rules,
+// curly braces bhitra declare gareko lai pani bahira console log gardincha
+//better not to use var
