@@ -167,3 +167,8 @@
 
 // Type Coercion
 // converting types, like in C#
+
+const a = "1"
+
+console.log(typeof parseInt(a))
+console.log(typeof a)
