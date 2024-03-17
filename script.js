@@ -176,8 +176,16 @@
 // // console.log(typeof a)
 
 
-const a = 1
-const b = "1"
+// const a = 1
+// const b = "1"
 
-console.log(a === b) // use === to compare the exact types
-// type coercion doesn't happen while using "==="
+// console.log(a === b) // use === to compare the exact types
+// type coercion doesn't happen while using
+
+const a = null
+const b = undefined
+
+console.log(a == b)
+// null, undefined ma chai feri "==" use gardaa true output dincha ani "===" garda false
+// so better to use "==" in this case
+
