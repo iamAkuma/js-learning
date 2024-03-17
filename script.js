@@ -168,7 +168,9 @@
 // Type Coercion
 // converting types, like in C#
 
-const a = "1"
+let a = 1
+const b = "1"
 
-console.log(typeof parseInt(a))
-console.log(typeof a)
+console.log(b == a) //gives true because JS converts them to same type :3
+// console.log(typeof parseInt(a))
+// console.log(typeof a)
