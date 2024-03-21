@@ -229,7 +229,7 @@ const b = [2, 4, 6, 8, 10]
 //     return number => 2
 // })
 
-const result = a.find(number => {
-    return number > 5
+const result = a.some(number => {
+    return number < 5
 })
 console.log(result)
