@@ -215,7 +215,13 @@
 // Array Methods
 
 const a = [1, 2, 3, 4, 5]
+const b = [2, 4, 6, 8, 10]
+// a.forEach((number, index) => {
+//     console.log(number + " " + index)
+// })
 
-a.forEach((number, index) => {
-    console.log(number + " " + index)
+const result = a.map(number => {
+    return number * 8
+
 })
+console.log(result)
