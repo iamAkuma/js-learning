@@ -228,4 +228,8 @@ const b = [2, 4, 6, 8, 10]
 // const result = b.filter(number => {
 //     return number => 2
 // })
+
+const result = a.find(number => {
+    return number > 5
+})
 console.log(result)
