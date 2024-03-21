@@ -220,8 +220,12 @@ const b = [2, 4, 6, 8, 10]
 //     console.log(number + " " + index)
 // })
 
-const result = a.map(number => {
-    return number * 8
+// const result = a.map(number => {
+//     return number * 8
 
-})
+// })
+
+// const result = b.filter(number => {
+//     return number => 2
+// })
 console.log(result)
